@@ -3,7 +3,7 @@ import { useProductStore } from '../store/useProductStore';
 import { useParams } from 'react-router-dom';
 import DetailCartPopup from '../components/DetailCartPopup';
 import DetailWishPopup from '../components/DetailWishPopup';
-import "./scss/ProductDetail.scss";
+import "./scss/productDetail.scss";
 import "../components/scss/Popup.scss"
 
 // 사이즈를 저장할 배열
