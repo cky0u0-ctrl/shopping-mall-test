@@ -1,4 +1,4 @@
-
+import { useEffect } from 'react';
 import SectionTitle from '../components/SectionTitle'
 import MainSlider from '../components/MainSlider'
 import { useProductStore } from '../store/useProductStore';

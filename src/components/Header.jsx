@@ -1,4 +1,4 @@
-
+import { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import "./scss/Header.scss"
 import { useAuthStore } from '../store/useAuthStore'
