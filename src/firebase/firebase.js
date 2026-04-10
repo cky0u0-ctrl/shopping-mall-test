@@ -11,13 +11,12 @@ import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
     // cra app일 때 process.env.
-    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-    appId: import.meta.env.VITE_FIREBASE_APP_ID,
-    measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
+    apiKey: "AIzaSyAyU450OdsgDzZOpMUtYisLyb2WxZsdZ4k",
+    authDomain: "ezen-login-a293c.firebaseapp.com",
+    projectId: "ezen-login-a293c",
+    storageBucket: "ezen-login-a293c.firebasestorage.app",
+    messagingSenderId: "148867880108",
+    appId: "1:148867880108:web:5659d75c9e52236b4c3b09"
 };
 
 // Initialize Firebase
